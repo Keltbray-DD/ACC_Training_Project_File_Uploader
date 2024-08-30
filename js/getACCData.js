@@ -150,7 +150,7 @@ function generateDocName(){
     console.log(varDocNumber_noNum)
 
     console.log(deliverableFolders)
-    populateFolderDropdown(deliverableFolders,ProjectPin)
+    //populateFolderDropdown(deliverableFolders,ProjectPin)
 
     const PartialMatch = filelist.filter(item => item.includes(varDocNumber_noNum));
 
