@@ -124,6 +124,9 @@ function populateStatusDropdown() {
         // Add states from iso19650States array
         StatesList.forEach(state => {
             const option = document.createElement('option');
+            if(state.code == "S0"){
+                option.selected = true
+            }
             option.value = state.code;
             option.textContent = state.code;
             dropdown.appendChild(option);
